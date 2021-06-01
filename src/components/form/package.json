@@ -1,0 +1,25 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "form组件",
+  "scheam": {
+    "type": "object",
+    "properties": {
+      "btnText": {
+        "title": "按钮文案",
+        "type": "string"
+      },
+      "action": {
+        "title": "提交地址",
+        "type": "string",
+        "format": "url"
+      }
+    },
+    "required": [
+      "btnText"
+    ]
+  },
+  "data": {
+    "btnText": "提交"
+  }
+}
